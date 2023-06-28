@@ -13,7 +13,10 @@ body {
 
   
 }
-
+.fander {
+  align-items: baseline;
+  
+}
 .cuerpo 
   {
     background-color: rgb(96, 157, 159);

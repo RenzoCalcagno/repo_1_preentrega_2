@@ -1,0 +1,31 @@
+/*color*/
+$maincolor: rgb(0, 226, 11);
+$secundarycolor: rgb(139, 139, 139) ;
+$keycolor:rgb(29, 29, 29);
+$white: rgb(255, 255, 255)
+
+/*fonts*/
+
+$mainFont  Georgia, 'Times New Roman';
+$secundaryfont: sans-serif;
+
+$textSm: 10px;
+$textMd:20px;
+$textLg:30px;
+$textXl:50px;
+
+/*weight*/
+
+$textBold:600;
+$textLigth:300;
+$textRegular: 400;
+
+/*
+p{
+    font-family: $maincolor;
+    color: $keycolor;
+    font-size: $textMd;
+    padding: 0 17px;
+}
+/*
+

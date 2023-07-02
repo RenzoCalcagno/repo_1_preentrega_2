@@ -1,30 +1,22 @@
-
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-
 body {
   background-color: rgb(96, 157, 159);
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
   padding: 5px;
-
-  
 }
 .fander {
   align-items: baseline;
-  
 }
-.cuerpo 
-  {
-    background-color: rgb(96, 157, 159);
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    padding: 5px;
-  
-    
-  }
+.cuerpo {
+  background-color: rgb(96, 157, 159);
+  font-family: Georgia, "Times New Roman", Times, serif;
+  padding: 5px;
+}
 
 .logo-container {
   text-align: center;
@@ -39,36 +31,35 @@ body {
   text-align: center;
 }
 
-
-.lista-navegacion{
+.lista-navegacion {
   background-color: rgb(19, 10, 19);
   font-size: 30px;
   margin: auto;
   padding-right: 0px;
   list-style: none;
-  
+
   
 }
 
-
-header { display: flex;
-        flex-direction: column;
+header {
+  display: flex;
+  flex-direction: column;
 }
 .contenido {
   padding-left: 20px;
   padding-right: 20px;
-  width:100%;
+  width: 100%;
   height: auto;
 }
-.title{
+.title {
   text-align: center;
   text-size-adjust: 50px;
   margin: 10px;
 }
-.justify-content{
-  justify-content: space-evenly
+.justify-content {
+  justify-content: space-evenly;
 }
-.navbar-brand { 
+.navbar-brand {
   text-size-adjust: 50px;
 }
 .lista-navegacio {
@@ -80,29 +71,29 @@ header { display: flex;
   justify-content: space-around;
 }
 
-.lista-navegacion > li >a {
-    display: block;
-    padding: 15px 20px;
-    color: aliceblue;
-    text-decoration: none;
+.lista-navegacion > li > a {
+  display: block;
+  padding: 15px 20px;
+  color: aliceblue;
+  text-decoration: none;
 }
-.parrafo-carrusel-uno{
-  font-size: 1  0px;
-  color: rgb(255, 254, 254); 
+.parrafo-carrusel-uno {
+  font-size: 10px;
+  color: rgb(255, 254, 254);
 }
+
 .parrafo-carrusel {
   font-size: 10px;
-  color: rgb(0, 0, 0); 
+  color: rgb(0, 0, 0);
 }
-.imagen-carrusel{
+.imagen-carrusel {
   width: 300px;
   height: 300px;
 }
-.parrafo-box{
+.parrafo-box {
   font-size: 50px;
   text-align: center;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-
 }
 .parrafo-grande {
   font-size: 40px;
@@ -111,17 +102,14 @@ header { display: flex;
   font-size: 20px;
 }
 
-
 .footer {
   background-color: rgba(0, 0, 0, 0.884);
   position: relative;
   width: 100%;
   height: 305px;
- 
 }
 
-
-.imagen-img{
+.imagen-img {
   width: 200px;
   height: 200px;
 }
@@ -134,45 +122,44 @@ header { display: flex;
   width: 400px;
 }
 
-.actions{
+.actions {
   display: flex;
 }
-.compra{
+.compra {
   display: grid;
-  grid-template-columns: 20%repeat(2,fr);
-  grid-template-rows: 80px repeat(3,60px)
+  grid-template-columns: 20%repeat (2, fr);
+  grid-template-rows: 80px repeat(3, 60px);
 }
-.compra.actions{
+.compra.actions {
   padding: 0 30px;
   grid-area: filters;
-  background-color: lawngreen ;
-
+  background-color: lawngreen;
 }
 .form__group {
-    width: 300px;
-    margin: 40px auto;
-    position: relative;
-    align-items: end;
-    --color: azure;
+  width: 300px;
+  margin: 40px auto;
+  position: relative;
+  align-items: end;
+  --color: azure;
 }
-.form__input{
+.form__input {
   width: 100%;
   background: none;
   color: azure;
-  padding: .6em .3em;
+  padding: 0.6em 0.3em;
   border: none;
   outline: none;
   border-bottom: 1px solid var(--color);
   font: inherit;
 }
-.form__label{
+.form__label {
   color: greenyellow;
   cursor: pointer;
   position: absolute;
   top: 0;
   left: 5px;
   transform: translateY(10px);
-  transition: transform .5s, color .3s;
+  transition: transform 0.5s, color 0.3s;
 }
 /*
 .form__input:not(:placeholder-shown)  { 
@@ -198,37 +185,28 @@ header { display: flex;
 */
 
 .contenedor-flex {
-  display: flex; 
+  display: flex;
   flex-flow: row wrap;
   justify-content: space-evenly;
-  
 }
 
-
 .contenedor-flex-dos {
-  display: flex; 
+  display: flex;
   flex-flow: row wrap;
   justify-content: space-evenly;
   height: 550px;
   width: 1870px;
-  
 }
 
-   
-
-.box { 
+.box {
   border: 5px;
   padding: auto;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
   font: bold;
   width: 350px;
   height: 550px;
 }
 
-
-
-
-  
 /*contenido de grid*/
 
 .grid {
@@ -236,26 +214,22 @@ header { display: flex;
   display: grid;
 }
 
-.footer-uno{
+.footer-uno {
   grid-template-columns: 30% 30%;
   gap: 39%;
- 
+
   align-content: space-between;
 }
-.footer-dos{
-  
+.footer-dos {
   margin-top: 100px;
-
 }
 .footer-tres {
- 
   align-content: end;
 }
-.grid-footer{
-  grid-template-columns: 40% 40%;  
+.grid-footer {
+  grid-template-columns: 40% 40%;
   gap: 20%;
   align-content: space-between;
-
 }
 /*defino el template por filas y columnas*/
 .grid-template-columns-row {
@@ -278,12 +252,10 @@ header { display: flex;
 
 .caja {
   display: grid;
-  
+
   width: 250px;
   height: 250px;
   margin: 15px;
-  
-  
 }
 
 #botonera {
@@ -335,4 +307,3 @@ header { display: flex;
 #bmw:checked ~ #imagenes .ferrari, #bmw:checked ~ #imagenes .honda  {
   display: none;
 } */
-

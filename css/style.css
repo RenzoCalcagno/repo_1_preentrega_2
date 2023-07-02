@@ -304,6 +304,22 @@ header {
 
 
 /*
-#bmw:checked ~ #imagenes .ferrari, #bmw:checked ~ #imagenes .honda  {
-  display: none;
-} */
+ */
+
+#bmw:checked ~ #imag .ferrari, 
+#bmw:checked ~ #imag .honda,
+#bmw:checked ~ #imag .jhon-deere,
+#bmw:checked ~ #imag  .mercedez-benz,
+#bmw:checked ~ #imag .caseih
+{
+    display: none;
+  }
+  #ferrari:checked ~ #imag .bmw, 
+  #ferrari:checked ~ #imag .honda,
+  #ferrari:checked ~ #imag .jhon-deere,
+  #ferrari:checked ~ #imag  .mercedez-benz,
+  #ferrari:checked ~ #imag .caseih
+  {
+      display: none;
+    }
+  

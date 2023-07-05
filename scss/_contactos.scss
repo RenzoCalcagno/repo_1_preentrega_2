@@ -1,0 +1,28 @@
+.form__group {
+    width: 300px;
+    margin: 40px auto;
+    position: relative;
+    align-items: end;
+    --color: azure;
+  }
+  .form__input {
+    width: 100%;
+    background: none;
+    color: azure;
+    padding: 0.6em 0.3em;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid var(--color);
+    font: inherit;
+  }
+  .form__label {
+    color: greenyellow;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    left: 5px;
+    transform: translateY(10px);
+    transition: transform 0.5s, color 0.3s;
+  }
+  
+  

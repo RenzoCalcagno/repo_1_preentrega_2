@@ -8,3 +8,141 @@
     text-size-adjust: 50px;
     margin: 10px;
   }
+  .parrafo-box {
+    font-size: 50px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .parrafo-grande {
+    font-size: 40px;
+  }
+  .parrafo-mediano {
+    font-size: 20px;
+  }
+  
+  .imagen-img {
+    width: 200px;
+    height: 200px;
+  }
+  .box {
+    border: 5px;
+    padding: auto;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font: bold;
+    width: 350px;
+    height: 550px;
+  }
+  .contenedor-flex {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+  }
+  
+  .contenedor-flex-dos {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    height: 550px;
+    width: 1870px;
+  }
+  .grid {
+    width: 99%;
+    display: grid;
+  }
+  
+.grid-template-columns-row {
+  grid-template-columns: 50% 30%;
+  grid-template-rows: 50% 30%;
+  gap: 20%;
+  align-content: space-between;
+}
+
+.template-areas {
+  grid-template-columns: 33% 33% 33%;
+  grid-template-rows: auto;
+  grid-template-areas:
+    "nav nav nav"
+    "main links pie"
+    "pien nav links";
+}
+
+.caja {
+  display: grid;
+
+  width: 250px;
+  height: 250px;
+  margin: 15px;
+}
+body {
+  background-color: $maincolor;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  padding: 5px;
+}
+.fander {
+  align-items: baseline;
+}
+.cuerpo {
+  background-color: $maincolor;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  padding: 5px;
+}
+
+.logo-container {
+  text-align: center;
+}
+
+.logo {
+  max-height: 100%;
+}
+
+.encabezado {
+  background-color: $keycolor;
+  text-align: center;
+}
+
+.lista-navegacion {
+  background-color: $keycolor;
+  font-size: $textLg;
+  margin: auto;
+  padding-right: 0px;
+  list-style: none;
+
+  
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+}
+.contenido {
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 100%;
+  height: auto;
+}
+.title {
+  text-align: center;
+  text-size-adjust: 50px;
+  margin: 10px;
+}
+.justify-content {
+  justify-content: space-evenly;
+}
+.navbar-brand {
+  text-size-adjust: 50px;
+}
+.lista-navegacio {
+  font-size: 30px;
+  margin: auto;
+  padding-right: 20px;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+.lista-navegacion > li > a {
+  display: block;
+  padding: 15px 20px;
+  color: $white;
+  text-decoration: none;
+}

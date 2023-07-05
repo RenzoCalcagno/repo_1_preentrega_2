@@ -161,28 +161,8 @@ header {
   transform: translateY(10px);
   transition: transform 0.5s, color 0.3s;
 }
-/*
-.form__input:not(:placeholder-shown)  { 
-  color: coral;
-}
-.form__input:not(:placeholder-shown){
-  transform: translateY(-12px)scale(.7);
-  transform-origin:left top;
-  color: darkseagreen;
-}
-.input{
-  display: block;
-  margin: 80px auto;
-  padding: .8em 1em;
-  font: inherit;
-}
-.input:focus {
-  animation: shake .3s;
-  border: 1px solid rebeccapurple;
-  outline: none; 
-}
 
-*/
+
 
 .contenedor-flex {
   display: flex;
@@ -207,7 +187,7 @@ header {
   height: 550px;
 }
 
-/*contenido de grid*/
+
 
 .grid {
   width: 99%;
@@ -231,7 +211,8 @@ header {
   gap: 20%;
   align-content: space-between;
 }
-/*defino el template por filas y columnas*/
+
+
 .grid-template-columns-row {
   grid-template-columns: 50% 30%;
   grid-template-rows: 50% 30%;
@@ -239,7 +220,7 @@ header {
   align-content: space-between;
 }
 
-/*los gaps son la diferencia entre una y otra*/
+
 
 .template-areas {
   grid-template-columns: 33% 33% 33%;
@@ -298,28 +279,3 @@ header {
   grid-column-start: 1;
   grid-column-end: 3;
 }
-/*puede llegar a ser mas facil con grid area*/
-/*fin de contenido de gri/*
-
-
-
-/*
- */
-
-#bmw:checked ~ #imag .ferrari, 
-#bmw:checked ~ #imag .honda,
-#bmw:checked ~ #imag .jhon-deere,
-#bmw:checked ~ #imag  .mercedez-benz,
-#bmw:checked ~ #imag .caseih
-{
-    display: none;
-  }
-  #ferrari:checked ~ #imag .bmw, 
-  #ferrari:checked ~ #imag .honda,
-  #ferrari:checked ~ #imag .jhon-deere,
-  #ferrari:checked ~ #imag  .mercedez-benz,
-  #ferrari:checked ~ #imag .caseih
-  {
-      display: none;
-    }
-  

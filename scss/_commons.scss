@@ -5,19 +5,19 @@
 
 .title{
     text-align: center;
-    text-size-adjust: 50px;
+    text-size-adjust: $textXl;
     margin: 10px;
   }
   .parrafo-box {
     font-size: 50px;
     text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: $secundaryfont ;
   }
   .parrafo-grande {
-    font-size: 40px;
+    font-size: $textLx;
   }
   .parrafo-mediano {
-    font-size: 20px;
+    font-size: $textMd;
   }
   
   .imagen-img {
@@ -27,7 +27,7 @@
   .box {
     border: 5px;
     padding: auto;
-    font-family: Georgia, "Times New Roman", Times, serif;
+    font-family: $mainFont;
     font: bold;
     width: 350px;
     height: 550px;
@@ -75,7 +75,7 @@
 }
 body {
   background-color: $maincolor;
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: $mainFont;
   padding: 5px;
 }
 .fander {
@@ -83,7 +83,7 @@ body {
 }
 .cuerpo {
   background-color: $maincolor;
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family:$mainFont;
   padding: 5px;
 }
 

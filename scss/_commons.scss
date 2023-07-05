@@ -6,10 +6,10 @@
 .title{
     text-align: center;
     text-size-adjust: $textXl;
-    margin: 10px;
+    margin: $marginMd;
   }
   .parrafo-box {
-    font-size: 50px;
+    font-size: $textXl;
     text-align: center;
     font-family: $secundaryfont ;
   }
@@ -26,7 +26,7 @@
   }
   .box {
     border: 5px;
-    padding: auto;
+    padding: $paddingAt;
     font-family: $mainFont;
     font: bold;
     width: 350px;
@@ -71,12 +71,12 @@
 
   width: 250px;
   height: 250px;
-  margin: 15px;
+  margin: $marginMm;
 }
 body {
   background-color: $maincolor;
   font-family: $mainFont;
-  padding: 5px;
+  padding: $paddingSm;
 }
 .fander {
   align-items: baseline;
@@ -84,7 +84,7 @@ body {
 .cuerpo {
   background-color: $maincolor;
   font-family:$mainFont;
-  padding: 5px;
+  padding: $paddingSm;
 }
 
 .logo-container {
@@ -103,7 +103,7 @@ body {
 .lista-navegacion {
   background-color: $keycolor;
   font-size: $textLg;
-  margin: auto;
+  margin: $marginAt;
   padding-right: 0px;
   list-style: none;
 
@@ -115,26 +115,26 @@ header {
   flex-direction: column;
 }
 .contenido {
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: $paddingMd;
+  padding-right: $paddingMd;
   width: 100%;
   height: auto;
 }
 .title {
   text-align: center;
-  text-size-adjust: 50px;
-  margin: 10px;
+  text-size-adjust: $textXl;
+  margin: $marginM;
 }
 .justify-content {
   justify-content: space-evenly;
 }
 .navbar-brand {
-  text-size-adjust: 50px;
+  text-size-adjust: $textXl;
 }
 .lista-navegacio {
-  font-size: 30px;
-  margin: auto;
-  padding-right: 20px;
+  font-size: $textLg;
+  margin: $marginA;
+  padding-right: $paddingM;
   list-style: none;
   display: flex;
   justify-content: space-around;
@@ -142,7 +142,8 @@ header {
 
 .lista-navegacion > li > a {
   display: block;
-  padding: 15px 20px;
+  padding: $paddingMt $paddingMd;
   color: $white;
   text-decoration: none;
 }
+

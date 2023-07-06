@@ -112,6 +112,7 @@ header {
 .imagen-img {
   width: 200px;
   height: 200px;
+ 
 }
 .footer-imagen {
   width: 100px;
@@ -213,13 +214,25 @@ header {
 }
 
 
-.grid-template-columns-row {
-  grid-template-columns: 50% 30%;
-  grid-template-rows: 50% 30%;
-  gap: 20%;
-  align-content: space-between;
+.grid-template-columns {
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+
+  
 }
 
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 30% 30% 30%; /* Define las columnas y su tamaño */
+  grid-gap: 10px; /* Espacio entre las celdas */
+}
+
+.grid-item {
+  background-color: #000000;
+  padding: 20px;
+  text-align: center;
+}
 
 
 .template-areas {
@@ -279,3 +292,25 @@ header {
   grid-column-start: 1;
   grid-column-end: 3;
 }
+
+.transform:hover {
+  
+  transform: translate(20px);
+  cursor: crosshair;
+  transition: all 4s;
+}
+/*
+.transform img {
+  width: 0px;
+  flex-grow: 1;
+  object-fit: cover;
+  opacity: .8;
+  transition: .5s ease;
+}
+.transform img  :hover{
+  cursor: crosshair;
+  width: 300px;
+  opacity: 1;
+  filter: contrast(120%);
+}
+*/ 

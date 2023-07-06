@@ -55,9 +55,9 @@
     </div>
     <main class="contenido">
       <h1 class="title">LO ULTIMO</h1>
-      <section class="contenedor-flex">
+      <div class="contenedor-flex">
           <div class="box">
-            <img src="../imagenes/hondaremera.jpeg" alt="Honda remera" />
+            <img src="../imagenes/hondaremera.jpeg" alt="Honda remera" class="imagen-img"/>
             <p class="parrafo-grande">Honda</p>
             <p>
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit
@@ -67,11 +67,7 @@
             </p>
           </div>   
          <div class="box">
-            <img
-              src="../imagenes/audiremera.jpg"
-              alt="Remera de audi"
-              class="imagen"
-            />
+            <img src="../imagenes/audiremera.jpg" alt="Remera de audi" class="imagen-img" />
             <p class="parrafo-grande">Audi</p>
             <p>
               Lorem ipsum dolor sit amet consectetur, adipisicing elit.
@@ -81,10 +77,7 @@
             </p>
           </div>
           <div class="box">
-            <img
-              src="../imagenes/mercedesremera.jpg"
-              alt="Mercedes benz remera"
-            />
+            <img  src="../imagenes/mercedesremera.jpg"   alt="Mercedes benz remera" class="imagen-img" />
             <p class="parrafo-grande">Mercedes benz</p>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit
@@ -94,7 +87,29 @@
             </p>
           </div>
         
-      </section>
+      </div>
+      <div class="grid-template-columns">
+        <div class="transform">
+          <div class="grid-item">
+            <img src="../imagenes/bmw.jpeg" alt="bmw-remera" class="imagen-img">
+          </div> 
+          <div class="grid-item">
+            <img src="../imagenes/bmw-tres.jpg" alt="bmw-remera" class="imagen-img">
+          </div>  
+          <div class="grid-item">
+            <img src="../imagenes/bmw-dos.jpg" alt="bmw-remera"  class="imagen-img">
+          </div>  
+        </div>
+      </div>
+
+      <div class="grid-container">
+        <div class="grid-item">Elemento 1</div>
+        <div class="grid-item"><img src="../imagenes/bmw-tres.jpg" alt="bmw-remera" class="imagen-img"> </div>
+        <div class="grid-item">  <img src="../imagenes/bmw-dos.jpg" alt="bmw-remera"  class="imagen-img"></div>
+        <div class="grid-item">Elemento 4</div>
+        <div class="grid-item">Elemento 5</div>
+        <div class="grid-item">Elemento 6</div>
+      </div>
     </main>
     <footer class="footer">
       <div class="grid footer-uno">

@@ -1,55 +1,50 @@
+.title {
+  text-align: center;
+  text-size-adjust: $textXl;
+  margin: $marginMd;
+}
+.parrafo-box {
+  font-size: $textXl;
+  text-align: center;
+  font-family: $secundaryfont;
+}
+.parrafo-grande {
+  font-size: $textLx;
+}
+.parrafo-mediano {
+  font-size: $textMd;
+}
 
+.imagen-img {
+  width: 200px;
+  height: 200px;
+}
+.box {
+  border: 5px;
+  padding: $paddingAt;
+  font-family: $mainFont;
+  font: bold;
+  width: 350px;
+  height: 550px;
+}
+.contenedor-flex {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+}
 
+.contenedor-flex-dos {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  height: 550px;
+  width: 1870px;
+}
+.grid {
+  width: 99%;
+  display: grid;
+}
 
-
-
-.title{
-    text-align: center;
-    text-size-adjust: $textXl;
-    margin: $marginMd;
-  }
-  .parrafo-box {
-    font-size: $textXl;
-    text-align: center;
-    font-family: $secundaryfont ;
-  }
-  .parrafo-grande {
-    font-size: $textLx;
-  }
-  .parrafo-mediano {
-    font-size: $textMd;
-  }
-  
-  .imagen-img {
-    width: 200px;
-    height: 200px;
-  }
-  .box {
-    border: 5px;
-    padding: $paddingAt;
-    font-family: $mainFont;
-    font: bold;
-    width: 350px;
-    height: 550px;
-  }
-  .contenedor-flex {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-evenly;
-  }
-  
-  .contenedor-flex-dos {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-evenly;
-    height: 550px;
-    width: 1870px;
-  }
-  .grid {
-    width: 99%;
-    display: grid;
-  }
-  
 .grid-template-columns-row {
   grid-template-columns: 50% 30%;
   grid-template-rows: 50% 30%;
@@ -73,17 +68,14 @@
   height: 250px;
   margin: $marginMm;
 }
-body {
-  background-color: $maincolor;
-  font-family: $mainFont;
-  padding: $paddingSm;
-}
+
+
 .fander {
   align-items: baseline;
 }
 .cuerpo {
   background-color: $maincolor;
-  font-family:$mainFont;
+  font-family: $mainFont;
   padding: $paddingSm;
 }
 
@@ -106,8 +98,6 @@ body {
   margin: $marginAt;
   padding-right: 0px;
   list-style: none;
-
-  
 }
 
 header {
@@ -123,7 +113,7 @@ header {
 .title {
   text-align: center;
   text-size-adjust: $textXl;
-  margin: $marginM;
+  margin: $marginMd;
 }
 .justify-content {
   justify-content: space-evenly;
@@ -133,8 +123,8 @@ header {
 }
 .lista-navegacio {
   font-size: $textLg;
-  margin: $marginA;
-  padding-right: $paddingM;
+  margin: $marginAt;
+  padding-right: $paddingMm;
   list-style: none;
   display: flex;
   justify-content: space-around;
@@ -146,4 +136,14 @@ header {
   color: $white;
   text-decoration: none;
 }
+@media (max-width: 768px) {
+ 
+}
 
+@media (min-width: 769px) and (max-width: 1024px) {
+  
+}
+
+@media (min-width: 1025px) {
+
+}

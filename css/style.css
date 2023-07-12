@@ -37,8 +37,6 @@ body {
   margin: auto;
   padding-right: 0px;
   list-style: none;
-
-  
 }
 
 header {
@@ -112,10 +110,9 @@ header {
 .imagen-img {
   width: 200px;
   height: 200px;
- 
 }
 
-.img{
+.img {
   width: 200px;
   height: 200px;
   border: 5px solid #ccc;
@@ -129,7 +126,6 @@ header {
 img:hover {
   margin-top: 2px;
 }
-
 
 .footer-imagen {
   width: 100px;
@@ -180,8 +176,6 @@ img:hover {
   transition: transform 0.5s, color 0.3s;
 }
 
-
-
 .contenedor-flex {
   display: flex;
   flex-flow: row wrap;
@@ -204,8 +198,6 @@ img:hover {
   width: 350px;
   height: 550px;
 }
-
-
 
 .grid {
   width: 99%;
@@ -230,14 +222,10 @@ img:hover {
   align-content: space-between;
 }
 
-
 .grid-template-columns {
   display: grid;
   grid-template-columns: 30% 30% 30%;
-
-  
 }
-
 
 .grid-container {
   display: grid;
@@ -250,7 +238,6 @@ img:hover {
   padding: 20px;
   text-align: center;
 }
-
 
 .template-areas {
   grid-template-columns: 33% 33% 33%;
@@ -311,7 +298,6 @@ img:hover {
 }
 
 .transform:hover {
-  
   transform: translate(20px);
   cursor: crosshair;
   transition: all 4s;
@@ -330,4 +316,4 @@ img:hover {
   opacity: 1;
   filter: contrast(120%);
 }
-*/ 
+*/

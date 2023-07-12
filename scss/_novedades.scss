@@ -1,15 +1,17 @@
 
 
 
-img{
+.img{
+    width: 200px;
+    height: 200px;
     border: 5px solid #ccc;
     float: left;
     margin: 15px;
     -webkit-transition: margin 0.5s ease-out;
     -moz-transition: margin 0.5s ease-out;
     transition: margin 0.5s ease-out;
-}
- 
-img:hover {
+  }
+  
+  img:hover {
     margin-top: 2px;
-}
+  }

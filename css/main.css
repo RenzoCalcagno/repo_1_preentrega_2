@@ -1,10 +1,10 @@
-/* Error: expected more input.
- *    ,
- * 30 | /*
- *    |   ^
- *    '
- *   scss\_vars.scss 30:3  @import
- *   scss\main.scss 1:9    root stylesheet */
+/* Error: Undefined variable.
+ *   ,
+ * 8 | $mainFont "Georgia" 'Times New Roman';
+ *   | ^^^^^^^^^
+ *   '
+ *   scss\_vars.scss 8:1  @import
+ *   scss\main.scss 1:9   root stylesheet */
 
 body::before {
   font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
@@ -14,5 +14,5 @@ body::before {
   padding: 1em;
   margin-bottom: 1em;
   border-bottom: 2px solid black;
-  content: "Error: expected more input.\a    \2577 \a 30 \2502  /*\d\a    \2502    ^\a    \2575 \a   scss\\_vars.scss 30:3  @import\a   scss\\main.scss 1:9    root stylesheet";
+  content: "Error: Undefined variable.\a   \2577 \a 8 \2502  $mainFont \"Georgia\" 'Times New Roman';\d\a   \2502  ^^^^^^^^^\a   \2575 \a   scss\\_vars.scss 8:1  @import\a   scss\\main.scss 1:9   root stylesheet";
 }

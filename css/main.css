@@ -1,10 +1,4 @@
-/* Error: Undefined variable.
- *   ,
- * 8 | $mainFont "Georgia" 'Times New Roman';
- *   | ^^^^^^^^^
- *   '
- *   scss\_vars.scss 8:1  @import
- *   scss\main.scss 1:9   root stylesheet */
+gi
 
 body::before {
   font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",

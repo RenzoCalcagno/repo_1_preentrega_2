@@ -240,8 +240,21 @@ img:hover {
   margin-top: 2px;
 }
 
-body {
-  background-color: rgb(96, 157, 159);
+.title-e {
+  text-align: center;
+  text-size-adjust: 50px;
+  margin: 10px;
+}
+
+.page-e {
+  text-align: center;
+  text-size-adjust: 40px;
+  margin: 10px;
+}
+
+.c-error {
+  align-content: center;
+  align-items: center;
 }
 
 /*# sourceMappingURL=main.css.map */

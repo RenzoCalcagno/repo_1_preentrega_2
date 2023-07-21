@@ -1,0 +1,31 @@
+.lista-navegacion {
+  background-color: $keycolor;
+  font-size: $textLg;
+  margin: $marginAt;
+  padding-right: 0px;
+  list-style: none;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar-brand {
+  text-size-adjust: $textXl;
+}
+.lista-navegacio {
+  font-size: $textLg;
+  margin: $marginAt;
+  padding-right: $paddingMm;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+.lista-navegacion > li > a {
+  display: block;
+  padding: $paddingMt $paddingMd;
+  color: $white;
+  text-decoration: none;
+}

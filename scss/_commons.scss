@@ -3,6 +3,11 @@
   text-size-adjust: $textXl;
   margin: $marginMd;
 }
+.cuerpo {
+  background-color: $maincolor;
+  font-family: $mainFont;
+  padding: $paddingSm;
+}
 .parrafo-box {
   font-size: $textXl;
   text-align: center;
@@ -69,7 +74,6 @@
   margin: $marginMm;
 }
 
-
 .fander {
   align-items: baseline;
 }
@@ -92,14 +96,6 @@
   text-align: center;
 }
 
-.lista-navegacion {
-  background-color: $keycolor;
-  font-size: $textLg;
-  margin: $marginAt;
-  padding-right: 0px;
-  list-style: none;
-}
-
 header {
   display: flex;
   flex-direction: column;
@@ -110,40 +106,30 @@ header {
   width: 100%;
   height: auto;
 }
-.title {
-  text-align: center;
-  text-size-adjust: $textXl;
-  margin: $marginMd;
+.parrafo-grande {
+  @include textos(40px, 45px, black, 10px);
+}
+.parrafo-mediano {
+  font-size: $textMd;
 }
 .justify-content {
   justify-content: space-evenly;
 }
-.navbar-brand {
-  text-size-adjust: $textXl;
-}
-.lista-navegacio {
-  font-size: $textLg;
-  margin: $marginAt;
-  padding-right: $paddingMm;
-  list-style: none;
-  display: flex;
-  justify-content: space-around;
+
+@media (max-width: 599px) {
+  body {
+    background-color: $fifthcolor;
+  }
 }
 
-.lista-navegacion > li > a {
-  display: block;
-  padding: $paddingMt $paddingMd;
-  color: $white;
-  text-decoration: none;
-}
-@media (max-width: 768px) {
- 
-}
-
-@media (min-width: 769px) and (max-width: 1024px) {
-  
+@media (min-width: 600px) and (max-width: 1024px) {
+  body {
+    background-color: $fourthcolor;
+  }
 }
 
 @media (min-width: 1025px) {
-
+  body {
+    background-color: $thirdcolor;
+  }
 }

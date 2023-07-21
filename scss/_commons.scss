@@ -107,7 +107,7 @@ header {
   height: auto;
 }
 .parrafo-grande {
-  @include textos(40px, 45px, black, 10px);
+  @include textos(40px, 45px, black, 10px,Georgia);
 }
 .parrafo-mediano {
   font-size: $textMd;
